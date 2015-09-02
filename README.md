@@ -1,4 +1,4 @@
-# Paypal IPN Listener for Google Appengine
+# PayPal IPN Listener for Google App Engine
 
 This is a Google App Engine python app which acts as an endpoint for PayPal Instant Payment Notifications. By default any new and verified payment notifications will be stored in the project's Cloud Datastore. Further operations must be implemented by the end user.
 
