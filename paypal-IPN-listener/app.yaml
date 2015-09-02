@@ -1,0 +1,15 @@
+# Change application name to the ID of your project on https://console.developers.google.com
+application: pp-ipn-listener
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+handlers:
+
+- url: .*
+  script: main.APPLICATION
+
+libraries:
+- name: webapp2
+  version: "2.5.2"
