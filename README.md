@@ -2,7 +2,7 @@
 
 This is a Google App Engine python app which acts as an endpoint for PayPal Instant Payment Notifications. By default any new, verified payment notifications will be stored in the project's Cloud Datastore. Further operations must be implemented by the end user.
 
-"Instant Payment Notification (IPN) is a message service that notifies you of events related to PayPal transactions. You can use IPN messages to automate back-office and administrative functions, such as fulfilling orders, tracking customers, or providing status and other transaction-related information."
+Instant Payment Notification (IPN) is a message service that notifies you of events related to PayPal transactions. You can use IPN messages to automate back-office and administrative functions, such as fulfilling orders, tracking customers, or providing status and other transaction-related information.
 
 Documentation for PayPal's IPN system can be found here:
 https://developer.paypal.com/webapps/developer/docs/classic/ipn/integration-guide/IPNIntro/
