@@ -29,6 +29,7 @@ PP_URL = "https://www.paypal.com/cgi-bin/webscr"
 usePayPalSandbox = False
 
 if usePayPalSandbox:
+    # Do not change these values
     ACCOUNT_EMAIL= "seller@paypalsandbox.com"
     PP_URL = "https://www.sandbox.paypal.com/cgi-bin/webscr"
 
