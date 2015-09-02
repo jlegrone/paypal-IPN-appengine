@@ -20,8 +20,8 @@ https://developer.paypal.com/webapps/developer/docs/classic/ipn/integration-guid
 
 After deployment, you will need to configure your PayPal account's IPN settings:
 
-	1. Visit https://www.paypal.com/cgi-bin/customerprofileweb?cmd=_profile-ipn-notify
-	2. Select 'Choose IPN Settings', input http://your-application-id.appspot.com as the Notification URL, and enable IPN notifications.
+1. Visit https://www.paypal.com/cgi-bin/customerprofileweb?cmd=_profile-ipn-notify
+2. Select 'Choose IPN Settings', input http://your-application-id.appspot.com as the Notification URL, and enable IPN notifications.
 
 You can test your IPN listener using PayPal's IPN Simulator:
 https://developer.paypal.com/webapps/developer/applications/ipn_simulator
